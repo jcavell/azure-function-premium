@@ -1,9 +1,9 @@
 #!/bin/bash
 
-storageName=splitstoraccprem
-functionAppName=splitfuncprem
-resourceGroup=stopresgrpprem
-plan=splitplanprem
+storageName=s108d99funcstorage
+functionAppName=s108d99-hellofunc
+resourceGroup=s108d99-func
+plan=s108d99-dev-asp
 location=westeurope
 
 # Create a resource group
