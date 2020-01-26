@@ -26,7 +26,7 @@ namespace ozstop_dotnet_split
             name = name ?? data?.name;
 
             return name != null
-                ? (ActionResult)new OkObjectResult($"Updated, {name}")
+                ? (ActionResult)new OkObjectResult($"Live, {name}")
                 : new BadRequestObjectResult("Please pass a name on the query string or in the request body");
         }
     }
